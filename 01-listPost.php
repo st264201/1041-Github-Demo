@@ -11,6 +11,10 @@ $i++;
 		"</td><td>", "<a href='01-viewPost.php?id=",$rs['id'] ,"'>查看</a>",
 		"</td><td>", "<a href='01-deletePost.php?id=",$rs['id'] ,"'>Delete</a>",
 		"</td><td>", "<a href='01-editPost.php?id=",$rs['id'] ,"'>Edit</a>",
+		"</td><td>", "<a href='01-editPost.php?id=",$rs['id'] ,"'>Edit</a>",
+		"</td><td>", "<a href='01-editPost.php?id=",$rs['id'] ,"'>Edit</a>",
+		"</td><td>", "<a href='01-editPost.php?id=",$rs['id'] ,"'>Edit</a>",
+		"</td><td>", "<a href='01-editPost.php?id=",$rs['id'] ,"'>Edit</a>",
 		"</td></tr>";
 	}
 	echo "</table>";
