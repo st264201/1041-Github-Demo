@@ -14,7 +14,7 @@ $fileElementName="myExcel";
 			$highestColumnIndex = $objWorksheet->getHighestColumn(); // e.g 'F'
 			$highestColumn = PHPExcel_Cell::columnIndexFromString($highestColumnIndex); //e.q. 5
 			echo ">>解析Excel檔案...讀取到 " . ($highestRow) . "筆資料, 內含 " . $highestColumn . " 個資料欄位 <br />";
-		$comma = "";
+			$comma = "";//.......
 		$comma1="";
 //example 2, fetch worksheet cell values
 //$sql="insert into paper ( pID, `year`, title_C, title_E, abstract_C, abstract_E, type, award, affiliate ) values ";
