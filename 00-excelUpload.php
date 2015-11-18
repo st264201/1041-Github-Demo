@@ -37,6 +37,9 @@ $sql1="insert into author (pID, name, `order`) values ";
 			}
 			$sql = $sql . ")";
 			$comma=",";
+			$comma=",";
+			$comma=",";
+			$comma=",";
 		}
 	}
 echo "$sql <br> $sql1 <br>";
