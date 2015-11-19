@@ -11,10 +11,11 @@ $i++;
 		"</td><td>", "<a href='01-viewPost.php?id=",$rs['id'] ,"'>查看</a>",
 		"</td><td>", "<a href='01-deletePost.php?id=",$rs['id'] ,"'>Delete</a>",
 		"</td><td>", "<a href='01-editPost.php?id=",$rs['id'] ,"'>Edit</a>",
-		"</td><td>", "<a href='01-editPost.php?id=",$rs['id'] ,"'>Edit</a>",
-		"</td><td>", "<a href='01-editPost.php?id=",$rs['id'] ,"'>Edit</a>",
-		"</td><td>", "<a href='01-editPost.php?id=",$rs['id'] ,"'>Edit</a>",
-		"</td><td>", "<a href='01-editPost.php?id=",$rs['id'] ,"'>Edit</a>",
+		"</td><td>", "<a href='01-deletePost.php?id=",$rs['id'] ,"'>Delete</a>",
+		"</td><td>", "<a href='01-deletePost.php?id=",$rs['id'] ,"'>Delete</a>",
+		"</td><td>", "<a href='01-deletePost.php?id=",$rs['id'] ,"'>Delete</a>",
+		"</td><td>", "<a href='01-deletePost.php?id=",$rs['id'] ,"'>Delete</a>",
+		"</td><td>", "<a href='01-deletePost.php?id=",$rs['id'] ,"'>Delete</a>",
 		"</td></tr>";
 	}
 	echo "</table>";
@@ -22,7 +23,5 @@ $i++;
 ?>
 <form method="post" action="01-addPost.php">
 name: <input type="text" name="name" /> <br />
-title: <input type="text" name="title" /> <br />
-content: <input type="text" name="content" /> <br />
 <input type ="submit" />
 </form>
