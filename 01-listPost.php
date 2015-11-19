@@ -2,9 +2,9 @@
 require_once("dbconnect.php");
 $sql="select * from guestbook";
 $i=0;
-if ($results=mysqli_query($conn,$sql) ) {
+if ($results=mysqli_queryyyyyyyyyyyyyyy($conn,$sql) ) {
 	echo "<table border=1>";
-	while (	$rs=mysqli_fetch_array($results)) {
+	while (	$rs=mysqli_fetch_arrayyyyyyyyyyyyyyy($results)) {
 $i++;
 	echo "<tr><td>" , $i ,
 		"</td><td>" , $rs['title'],
