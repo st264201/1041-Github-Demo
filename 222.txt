@@ -2,7 +2,13 @@ dfsf
 yayayyayayayyayayayyayayayyaa
 helllo
 
+<<<<<<< HEAD
+jijij
+dddd
+f
+=======
 abcd1
 abcd2
 abcd3
 abcd4
+>>>>>>> f4a54a3db2097227f59667175ec15dd8dcba2aa9
