@@ -1,4 +1,12 @@
 dfsf
 yayayyayayayyayayayyayayayyaa
 helllo
+<<<<<<< HEAD
 hahaha
+=======
+
+abcd1
+abcd2
+abcd3
+abcd4
+>>>>>>> 36a2f0a867fe1afbdecd03ed4a1634a447fa1575
