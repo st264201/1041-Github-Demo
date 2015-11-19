@@ -15,6 +15,13 @@ $i++;
 		"</td><td>", "<a href='01-editPost.php?id=",$rs['id'] ,"'>Edit</a>",
 		"</td><td>", "<a href='01-editPost.php?id=",$rs['id'] ,"'>Edit</a>",
 		"</td><td>", "<a href='01-editPost.php?id=",$rs['id'] ,"'>Edit</a>",
+		"</td><td>", "<a href='01-editPost.php?id=",$rs['id'] ,"'>Edit</a>",
+		"</td><td>", "<a href='01-editPost.php?id=",$rs['id'] ,"'>Edit</a>",
+		"</td><td>", "<a href='01-editPost.php?id=",$rs['id'] ,"'>Edit</a>",
+		"</td><td>", "<a href='01-editPost.php?id=",$rs['id'] ,"'>Edit</a>",
+		"</td><td>", "<a href='01-editPost.php?id=",$rs['id'] ,"'>Edit</a>",
+		"</td><td>", "<a href='01-editPost.php?id=",$rs['id'] ,"'>Edit</a>",
+		"</td><td>", "<a href='01-editPost.php?id=",$rs['id'] ,"'>Edit</a>",
 		"</td></tr>";
 	}
 	echo "</table>";
@@ -22,7 +29,5 @@ $i++;
 ?>
 <form method="post" action="01-addPost.php">
 name: <input type="text" name="name" /> <br />
-title: <input type="text" name="title" /> <br />
-content: <input type="text" name="content" /> <br />
 <input type ="submit" />
 </form>
