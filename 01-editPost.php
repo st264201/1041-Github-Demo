@@ -8,9 +8,9 @@ if ($results=mysqli_query($conn,$sql) ) {
 <form action="01-updatePost.php" method="post">
 <table border=1>
 <tr><td>id</td><td><input type="hidden" name="id" value="<?php echo $rs['id']; ?>"></td></tr>
-	<tr><td>title</td><td><input type="text" name="title" value="<?php echo  $rs['title'];?>"></td></tr>
-	<tr><td>author</td><td><input type="text" name="author" value="<?php echo $rs['name'];?>"></td></tr>
-	<tr><td>message</td><td><textarea name="content"><?php echo $rs['msg'];?></textarea></td></tr>
+	<tr><td>titleeeeeeeeeeeeeeeeeeeeeeee</td><td><input type="text" name="title" value="<?php echo  $rs['title'];?>"></td></tr>
+	<tr><td>authorrrrrrrrrrrrrrrrrrrrrrr</td><td><input type="text" name="author" value="<?php echo $rs['name'];?>"></td></tr>
+	<tr><td>messageeeeeeeeeeeeeeeeeeeeeee</td><td><textarea name="content"><?php echo $rs['msg'];?></textarea></td></tr>
 </table>
 <input type="submit">
 </form>
