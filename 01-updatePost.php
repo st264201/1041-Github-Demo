@@ -9,4 +9,5 @@ $id=(int)$_POST['id'];
 $sql="update guestbook set name='$name',title='$title',msg='$msg' where id=$id";
 mysqli_query($conn,$sql);
 //header("Location: 01-listPost.php");
+//我是林承翰
 ?>
