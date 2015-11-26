@@ -1,0 +1,9 @@
+class abcdefg123855
+
+pubic static void main (String[] args)
+
+{
+  system.out.print("my student id is 104213510,and my IP is 10.32.20.91");
+  
+  }
+
